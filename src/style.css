@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+:root{
+    --bg-color: #362c4a;
+    --text-color: #ffffff;
+    --header-color: var(--header-color) #362c4a;
+    --main-color: #ffdf51;
+    --other-color: #fcfcfc;
+    --tx-size: 4rem;
+    --p-size: 1rem;
+}
+
+/*Começando*/
+body {
+    background-color: #362c4a;
+    color: var(--text-color)
+}
+
+header{
+    background-color: #362c4a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    padding: 30px 8%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.marca {
+    display: flex;
+    align-items: center;
+}
+
+.marca h1 {
+    font-family:'Nabla', sans-serif;
+}
+
+.marca i {
+    color: orange;
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.naveg{
+    display: flex;
+}
+
+.naveg a {
+    color: var(--other-color);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.naveg a:hover {
+    color: var(--main-color);
+
+}
+
+.twoi {
+    display: flex;
+    align-items: center;
+}
+
+.cart i {
+    font-size: 35px;
+    color: var(--other-color);
+    z-index: 1001;
+}
+
+.menu i {
+    font-size: 35px;
+    color: var(--other-color);
+    z-index: 1001;
+}
+
+.twoi i {
+    margin-right: 20px;
+    font-size: 32px;
+    transition: a .55s ease;
+}
+
+.twoi i:hover {
+    color: var(--main-color);
+    transform: translateY(-5px);
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.home-img {
+    width: 100%;
+    padding-left: 40px;
+}
+
+.home-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Principal {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.Principal h2{
+    font-size: var(--tx-size);
+    line-height: 1.2;
+    margin-bottom: 2px;
+
+}
+
+.Principal h5 {
+    color: #ffffff99;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    padding-left: 3px;
+}
+
+.Principal h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    padding-left: 14px;
+}
+
+.Principal button {
+    background: transparent;
+    color: var(--other-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.Principal button:hover{
+    color: #ffdf51; /* Muda a cor do texto ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.1); /* Leve fundo ao passar o mouse */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
